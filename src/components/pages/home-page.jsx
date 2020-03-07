@@ -1,7 +1,6 @@
 import React from 'react';
 import BookList from '../book-list';
 import Header from "../header";
-import CartTable from "../cart-table";
 
 
 const HomePage = () => {
@@ -9,7 +8,6 @@ const HomePage = () => {
     <>
       <Header/>
       <BookList/>
-      <CartTable/>
     </>
     )
 };
