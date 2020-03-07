@@ -12,7 +12,7 @@ const updateCartItem = (book, item = {}, quantity) => {
     title,
     price: price,
     count: count + quantity,
-    total: total + quantity*book.price
+    total: total + quantity*price
   }
 };
 
